@@ -1,0 +1,109 @@
+/*Usado import de font do google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+/*padronização para nao ter margin e padding*/
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+  }
+
+  /*Aqui se solaliza o corpo do projeto*/
+  body{
+    background-image: url("/Images/stretched-1600-900-847571\ \(1\).jpg") ; /* Plano de fundo*/
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    
+  }
+
+  li, a, button{
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+  header{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 5px 10%;
+      background-color: #131416;
+  }
+
+  /*Navbar */
+  .logo{
+      cursor: pointer;
+      margin-right: auto;
+    
+  }
+
+  .nav_top{
+      list-style: none;
+  }
+
+  .nav_top li{
+      display: inline-block;
+      padding: 0px 20px;
+  }
+
+  .nav_top li a {
+      transition: all 0.3s ease 0s;
+  }
+
+  .nav_top li a:hover {
+      color: #30a900;
+  }
+button{
+    padding: 9px 25px;
+    background-color: rgb(49, 168, 13);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+  button:hover{
+    background-color: rgb(21, 68, 16);
+  }
+
+
+p, h2,h3{
+  color: #ffffff;
+
+
+  /*Lista 3x1*/
+ 
+}.arvore, li{
+  list-style: none;
+  justify-content: space-around;
+  display:block;
+  float:left;
+  margin:7px;
+
+  
+
+}
+:nth-child(3n+1) {
+  clear:both;
+ 
+}
+
+
+.texto{
+  width: 25em;
+  margin-right: 50px;
+  
+}
+
+.arvore img{
+  width: 350px;
+}
